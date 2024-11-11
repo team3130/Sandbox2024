@@ -93,7 +93,7 @@ public class  Main {
         String software = "the best";
         String build = "the worst"; // guys we love build dw
 
-        if (juhae.equals("the best") && giorgia.equals("the worst")) {
+        if (software.equals("the best") && build.equals("the worst")) {
             System.out.println("Software is the best, Build is the worst");
         } else {
             System.out.println("Either Software is not the best or Build is not the worst");
