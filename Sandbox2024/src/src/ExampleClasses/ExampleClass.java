@@ -11,7 +11,7 @@ public class ExampleClass {
 
 
     // (2) CONSTRUCTOR
-    public ExampleClass(int parameter1, String parameter2) {
+    public ExampleClass(int parameter1, String parameter2) }
         this.exampleInt = parameter1;
         this.greeting = parameter2;
     }
