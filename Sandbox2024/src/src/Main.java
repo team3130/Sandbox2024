@@ -19,6 +19,7 @@ public class  Main {
         /*
         (2) VARIABLE TYPES AND DECLARATION EXAMPLES
          */
+
         System.out.println();
         System.out.println("(2) VARIABLE TYPES AND DECL:");
         int exampleInteger;
@@ -30,7 +31,11 @@ public class  Main {
         String myString = "bruh";
 
         // create your own experimental variables here
-
+int my_int = 23;
+System.out.println(my_int);
+int test_int = 23;
+System.out.println(test_int);
+test_int = 14;
 
         /*
         (3) VARIABLE REASSIGNMENT
@@ -46,10 +51,17 @@ public class  Main {
 
         // try variable reassignment yourself using shorthand: += *= /= -=
 
+    System.out.println(x);
+    x = 5;
+    int u = 14;
+    System.out.println(u);
+    u = u + 2;
 
         /*
         (4) CONDITIONALS BASICS
          */
+        boolean boolean1 = true;
+        boolean ethan_is_the_best = true;
         System.out.println();
         System.out.println("(4) CONDITIONAL BASICS");
 
