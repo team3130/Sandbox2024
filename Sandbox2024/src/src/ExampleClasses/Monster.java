@@ -5,15 +5,16 @@ public class Monster {
     public int size;
     public double weight;
     public String species;
-    public boolean isDangerous = true;
+    public boolean isDangerous;
     public String name;
 
     // CONSTRUCTOR
-    public Monster(String name, String species, int size, double weight) {
+    public Monster(String name, String species, int size, double weight,boolean isDangerous) {
         this.name = name;
         this.species = species;
         this.size = size;
         this.weight = weight;
+        this.isDangerous= true;
     }
 
     // METHODS
@@ -47,8 +48,15 @@ public class Monster {
     }
 
     public static void main(String[] args) {
-        Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
-        Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
-        Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0,  true);
+        Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9,true);
+        Monster blob  = new Monster("blubby", "alien", 2, 8.5,false);
+        blob.addWeight(blob.getWeight());
+        Monster lorax = new Monster("Lorax","truffulae",3,45,false);
+        System.out.println(blob.weight);
     }
+
+
+
+
 }
