@@ -1,5 +1,7 @@
 package ExampleClasses;
 
+import javax.naming.Name;
+
 public class Monster {
     // INSTANCE VARIABLES
     public int size;
@@ -50,5 +52,8 @@ public class Monster {
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        Monster reaser = new Monster("Chess","Check", 2, 13);
+        Monster JB = new Monster("Jordan Binnington", "POS", 12, 100000);
+
     }
 }
