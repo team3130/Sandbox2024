@@ -3,6 +3,9 @@ public class Ethan_Test {
         System.out.println("Hello World");
         boolean boolean_test = true;
         System.out.println(boolean_test);
+        System.out.println("Print the ");
+
+        System.out.println("Print the statement was false");
 
     }
 

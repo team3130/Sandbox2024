@@ -50,5 +50,11 @@ public class Monster {
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        Monster Sparky = new Monster("Sparky", "dog", 5, 10.0);
+        Monster Fuzzy = new Monster("Fuzzy", "penguin", 15, 19.2);
+        blob.addWeight(blob.getWeight());
+        System.out.println(blob.weight);
+        Sparky.addWeight(Sparky.getWeight());
+        System.out.println();
     }
 }
