@@ -4,10 +4,6 @@ MAIN IS NEVER USED IN FRC
 HOWEVER, IT IS IMPORTANT IN REAL LIFE CODE SO IF YOU WANNA KNOW LOOK INTO IT 
  */
 
-import com.sun.security.jgss.GSSUtil;
-
-import java.sql.SQLOutput;
-
 public class  Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -16,12 +12,8 @@ public class  Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057+90274903); // what is wrong with this line?
-        System.out.println(9999-1111);
-        System.out.println(297*209);
-        System.out.println(105/10);
-        System.out.println(25%11);
-        System.out.println(30%10);;// continue exercise here
+        System.out.println(9057 + 90274903); // what is wrong with this line?
+        // continue exercise here
 
 
         /*
@@ -35,12 +27,7 @@ public class  Main {
 
         double exampleDouble = 3.1415;
         boolean isTrue = true;
-        String showstopper = "the GOAT";
-        showstopper = "my goat";
         String myString = "bruh";
-        System.out.println(myInt);
-        System.out.println(myString);
-        System.out.println(showstopper);
 
         // create your own experimental variables here
 
@@ -55,16 +42,11 @@ public class  Main {
         x = x + 2; // x is now equal to 4
 
         int y = 2;
-        System.out.println(y);
         y += y; // y is equal to 4
-        System.out.println(y);
+
         // try variable reassignment yourself using shorthand: += *= /= -=
 
-        int z = 5;  // i did my own
-        System.out.println(z);
-        z+=4;
-        System.out.println(z);
-        // i'm the software goat
+
         /*
         (4) CONDITIONALS BASICS
          */
@@ -79,7 +61,7 @@ public class  Main {
         int negativeNancy = -31;
         int boringNum = 0;
 
-        boolean softwareIsTheBest = !false;
+        boolean softwareIsTheBest = false;
         boolean javaIsCool = true;
         boolean umarIsTeaching = false;
 
@@ -89,11 +71,11 @@ public class  Main {
             System.out.println("Business for life");
         }
 
-        if (ERRORNumMembers >= numBigTeam) {
+        if (ERRORNumMembers <= numBigTeam) {
             System.out.println("The ERRORs is a big team");
         }
 
-        if (umarIsTeaching) {
+        if (!umarIsTeaching) {
             System.out.println("Who is teaching?");
         } else {
             System.out.println("Umar has the lessons");
