@@ -5,7 +5,7 @@ HOWEVER, IT IS IMPORTANT IN REAL LIFE CODE SO IF YOU WANNA KNOW LOOK INTO IT
  */
 
 public class  Main {
-    public static void main(String[] args) {
+    public static <Int> void main(String[] args) {
         System.out.println("Hello world!");
 
         /*
@@ -13,7 +13,7 @@ public class  Main {
          */
         System.out.println("(1) OPERATORS PRACTICE:");
         System.out.println(9057 + 90274903); // what is wrong with this line?
-        // continue exercise here
+        System.out.println(195629 * 101);
 
 
         /*
@@ -29,7 +29,16 @@ public class  Main {
         boolean isTrue = true;
         String myString = "bruh";
 
-        // create your own experimental variables here
+        int BagelsAndBees =67576534;
+        double Cheese = 3.3333;
+        String JaromirJagr = "Klado, Czechia";
+        boolean True;
+        boolean GermanIsGood = true;
+
+        System.out.println(BagelsAndBees);
+        System.out.println(Cheese);
+        System.out.println(JaromirJagr);
+        System.out.println(GermanIsGood);
 
 
         /*
@@ -45,15 +54,18 @@ public class  Main {
         y += y; // y is equal to 4
 
         // try variable reassignment yourself using shorthand: += *= /= -=
+        int BillyMays = 7;
+        int X=7;
+        BillyMays =X+7;
 
 
         /*
         (4) CONDITIONALS BASICS
          */
-        System.out.println();
+        System.out.println(BillyMays);
         System.out.println("(4) CONDITIONAL BASICS");
 
-        int ERRORNumMembers = 51;
+        int ERRORNumMembers = 19;
         int ERRORNumCaptains = 3;
         int numBigTeam = 20;
         int unluckyNum = 13;
@@ -61,9 +73,9 @@ public class  Main {
         int negativeNancy = -31;
         int boringNum = 0;
 
-        boolean softwareIsTheBest = false;
-        boolean javaIsCool = true;
-        boolean umarIsTeaching = false;
+        boolean softwareIsTheBest = true;
+        boolean javaIsCool = false;
+        boolean umarIsTeaching = true;
 
         if (softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
             System.out.println("Software Forever");
@@ -91,7 +103,7 @@ public class  Main {
         System.out.println("(5) ADVANCED CONDITIONALS");
 
         String software = "the best";
-        String build = "the worst"; // guys we love build dw
+        String build = "the best"; // guys we love build dw
 
         if (software.equals("the best") && build.equals("the worst")) {
             System.out.println("Software is the best, Build is the worst");
