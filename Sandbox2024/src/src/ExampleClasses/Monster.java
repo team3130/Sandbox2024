@@ -52,3 +52,4 @@ public class Monster {
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
     }
 }
+

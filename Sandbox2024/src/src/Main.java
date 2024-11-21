@@ -27,7 +27,7 @@ public class  Main {
 
         double exampleDouble = 3.1415;
         boolean isTrue = true;
-        String myString = "bruh";
+        String myString = "Skibidi chungung";
 
         // create your own experimental variables here
 
@@ -38,9 +38,10 @@ public class  Main {
         System.out.println();
         System.out.println("(3) VARIABLE REASSIGNMENT");
         // verify this below by using print statements before and after reassignment
-        int x = 2;
-        x = x + 2; // x is now equal to 4
-
+        int x = 56;
+        System.out.println(x);
+        x = x + 140; // x is now equal to 4
+        System.out.println(x);
         int y = 2;
         y += y; // y is equal to 4
 
@@ -100,7 +101,6 @@ public class  Main {
         }
 
         // write your own conditionals using &&, ||, and elif statements
-
-
+        System.out.println();System.out.println(0x60);
     }
 }
