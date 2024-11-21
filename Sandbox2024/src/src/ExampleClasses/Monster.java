@@ -52,6 +52,7 @@ public class Monster {
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
         Monster Sparky = new Monster("Sparky", "dog", 5, 10.0);
         Monster Fuzzy = new Monster("Fuzzy", "penguin", 15, 19.2);
+
         blob.addWeight(blob.getWeight());
         System.out.println(blob.weight);
         Sparky.addWeight(Sparky.getWeight());
