@@ -26,15 +26,25 @@ public class Baby_Mohnish {
         this.age = age;
         this.zodiacSign = zodiacSign;
     }
-    public double addHeight(int num) {
-        return height + num; // note this doesn't actually modify the population, only returns the modified value
-    }
-    public String getCatch_Phrase() {
-        System.out.println(this.catch_Phrase);
-        return this.catch_Phrase;
+
+    public boolean setDotPom(boolean usesDotPom) {
+        this.uses_DotPom = usesDotPom;
+        return uses_DotPom;
     }
 
+    public boolean getDotPom() {
+        return uses_DotPom;
+    }
 
-
-zz
+    public boolean isCoolOnlyIfUsesDotPom() {
+        if (uses_DotPom) {
+            System.out.println("Cool!");
+            return cool = true;
+        } else {
+            System.out.println("uncool dude");
+            return cool = false;
+        }
+    }
 }
+
+
