@@ -35,13 +35,11 @@ public class Baby_Mohnish {
         return uses_DotPom;
     }
 
-    public boolean isCoolOnlyIfUsesDotPom() {
+    public void isCoolOnlyIfUsesDotPom() {
         if (uses_DotPom) {
             System.out.println("He uses .pom! Awesome Sauce!");
-            return cool = true;
         } else {
             System.out.println("He doesn't use .pom. uncool dude.");
-            return cool = false;
         }
     }
 
@@ -53,23 +51,33 @@ public class Baby_Mohnish {
         if (zodiacSign == "caprisun") {
             System.out.println("Caprisun! That's a keeper!");
         } else {
-            System.out.println(isDeathPenalty());
+            System.out.println(isCompatible());
         }
     }
-    public boolean isDeathPenalty(){
+
+    public boolean isCompatible(){
     if (zodiacSign == "hot") {
         System.out.println("Hot! That's a keeper!");
         return isKeeper = true;
         } else {
-        System.out.println("Death penalty.");
+        System.out.println("Not compatible, sorry!");
         return isKeeper = false;
         }
     }
+
     public void isCatchPhraseCool(){
         if (catch_Phrase == "bruh") {
             System.out.println("Catch Phrase Analysis = stupid catch phrase, death penalty");
         } else {
             System.out.println("Catch Prase Analysis = tippity top!");
+        }
+    }
+
+    public void isDangerous(){
+        if (dangerLevel >= 50) {
+            System.out.println("Danger level: Danger Alert!");
+        } else {
+            System.out.println("Danger level: Pip squeek!");
         }
     }
 }
