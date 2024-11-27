@@ -29,6 +29,8 @@ public class  Main {
         boolean isTrue = true;
         String myString = "bruh";
 
+        System.out.println(myInt);
+        System.out.println(myString);
         // create your own experimental variables here
 
 

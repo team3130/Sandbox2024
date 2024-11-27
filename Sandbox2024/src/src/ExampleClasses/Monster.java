@@ -7,6 +7,7 @@ public class Monster {
     public String species;
     public boolean isDangerous = true;
     public String name;
+    public String newName = "Gavin";
 
     // CONSTRUCTOR
     public Monster(String name, String species, int size, double weight) {
@@ -50,5 +51,6 @@ public class Monster {
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        Monster lorax = new Monster("Lorax", "truffulae", 3, 45);
     }
 }
