@@ -51,4 +51,7 @@ public class Monster {
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
     }
+    {
+        
+    }
 }
